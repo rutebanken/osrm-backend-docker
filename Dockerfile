@@ -69,7 +69,7 @@ USER appuser
 
 # --------------------------------
 
-
+VOLUME /deployments/profiles
 ENTRYPOINT ["/deployments/docker-entrypoint.sh"]
 
 EXPOSE 5000
