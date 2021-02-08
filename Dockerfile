@@ -56,7 +56,6 @@ RUN echo "disk=/tmp/stxxl,25000,syscall" > .stxxl
 RUN apt-get -y update && apt-get install -y \
     curl \
     libstxxl1v5  \
-    lua5.1 \
     libtbb2 \
     libluajit-5.1 \
     libboost-all-dev \
